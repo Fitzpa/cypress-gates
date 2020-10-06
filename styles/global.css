@@ -9,3 +9,13 @@ body {
     padding: 0;
     margin: 0;
 }
+
+span.left-arrow {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+span.left-arrow svg {
+    transform: rotate(180deg);
+}

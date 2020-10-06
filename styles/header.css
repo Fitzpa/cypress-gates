@@ -27,6 +27,29 @@ header .logo {
     height: 50px;
 }
 
+/* Back Button */
+header .container .back-button-container .back-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 125px;
+}
+
+header .container .back-button-container .back-btn span.arrow-left {
+    margin-right: 10px;
+}
+
+header .container .back-button-container .back-btn span.back-btn-title {
+    
+}
+
+header .container .back-button-container .back-btn {
+    text-decoration: none;
+    color: black
+}
+
+/* Search Bar */
 header .search-btn {
     padding: 0;
     height: 28px;
