@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="../styles/reset.css" />
         <link rel="stylesheet" href="../styles/global.css" />
         <link rel="stylesheet" href="../styles/header.css" />
-        <link rel="stylesheet" href="../styles/optimist-confirmation.css">
+        <link rel="stylesheet" href="../styles/optimist-form-page-2.css">
         <link rel="stylesheet" href="../styles/footer.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -165,17 +165,40 @@
             </div>
         </header>
         <div class="pardot-lp-content-container">
-            <div class="thank-you-container">
+            <div class="form-container">
                 <div class="title-container">
                     <h2>Relentless Pursuit of an Equitable World</h2>
                     <h1>The Optimist</h1>
                 </div>
-                <p class="confirmation">You are now signed up!</p>
-        
-                <p class="thank-you">Thanks to you, the world is making amazing progress against inequality every day. Without your hard work, achieving our vision would be impossible—which is exactly why we need people like you more deeply involved.</p>
+                <p>* Idicates a required field</p>
+                <form method="post" action="https://go.communications.gatesfoundation.org/l/701613/2020-08-25/cpgmk" class="form" id="pardot-form">
+                    <div class="input-container email">
+                        <label for="email">*Email</label>
+                        <input type="email" name="email" id="email" placeholder="Enter Email" required>
+                    </div>
+                    <div class="input-container firstname">
+                        <label for="first-name">*First Name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Enter First Name" required>
+                    </div>
+                    <div class="input-container lastname">
+                        <label for="last-name">*Last Name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Enter Last Name" required>
+                    </div>
+                    <div class="input-container countries">
+                        <label for="countries">*Country</label>
+                        <select id="countries" name ="countries" required></select>
+                    </div>
+                    <div class="input-container states">
+                        <label for="states">*State/Region</label>
+                        <select id="states" name ="states" required disabled></select>
+                    </div>
+    
+                    <button>Sign Up</button>
+                </form>
+                <p class="legal">By clicking Sign Up, you agree to the Bill & Melinda Gates Foundation's <a href="#">Privacy and Cookies Notice</a></p>
             </div>
             <div class="img-container">
-                <img src="./images/guille-alvarez-7sXRhsgXi2A-unsplash.jpg" alt="placeholder image">
+                <img src="./images/optimist.PNG" alt="optimist image">
             </div>
             
         </div>
@@ -291,7 +314,6 @@
                 </div>
             </div>
         </footer>
-
         <script src="./countries.js"></script>
         <script>
             document.querySelector("#countries").addEventListener("change", function (event) {
