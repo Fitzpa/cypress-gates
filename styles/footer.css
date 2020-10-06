@@ -106,7 +106,6 @@ footer .container .footer-container section.contact-legal .legal-links .legal-li
 
 footer .container .footer-container section.contact-legal .social .social-icon {
     margin-right: 16px;
-    width: 25px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -115,11 +114,12 @@ footer .container .footer-container section.contact-legal .social .social-icon {
 footer .container .footer-container section.contact-legal .social a {
     color: #fff;
     text-decoration: none;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     font-size: 12px;
     font-weight: 400;
     margin: auto;
+    z-index: 10;
 }
 
 footer .container .footer-container section.contact-legal .social .social-icon a {
@@ -127,6 +127,54 @@ footer .container .footer-container section.contact-legal .social .social-icon a
     justify-content: center;
     align-items: center;
     position: relative;
+    width: 30px;
+    height: 30px;
+}
+footer .container .footer-container section.contact-legal .social .social-icon a span.icon-container {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 2;
+    transition: all ease 0.5s;
+}
+
+footer .container .footer-container section.contact-legal .social .social-icon a:hover:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 1;
+    position: absolute;
+    border-radius: 50%;
+}
+
+footer .container .footer-container section.contact-legal .social .social-icon a.twitter span.icon-container {
+    background-image: url("../optimist-pg-graphics/Twitter_icon.svg");
+}
+footer .container .footer-container section.contact-legal .social .social-icon a.linkedin span.icon-container {
+    background-image: url("../optimist-pg-graphics/Linkedin_icon.svg");
+}
+footer .container .footer-container section.contact-legal .social .social-icon a.facebook span.icon-container {
+    background-image: url("../optimist-pg-graphics/Facebook_icon.svg");
+}
+footer .container .footer-container section.contact-legal .social .social-icon a.youtube span.icon-container {
+    background-image: url("../optimist-pg-graphics/YouTube_icon.svg");
+}
+
+footer .container .footer-container section.contact-legal .social .social-icon a.twitter:hover span.icon-container {
+    background-image: url("../optimist-pg-graphics/Twitter_icon_inverted.svg");
+}
+footer .container .footer-container section.contact-legal .social .social-icon a.linkedin:hover span.icon-container {
+    background-image: url("../optimist-pg-graphics/Linkedin_icon_inverted.svg");
+}
+footer .container .footer-container section.contact-legal .social .social-icon a.facebook:hover span.icon-container {
+    background-image: url("../optimist-pg-graphics/Facebook_icon_inverted.svg");
+}
+footer .container .footer-container section.contact-legal .social .social-icon a.youtube:hover span.icon-container {
+    background-image: url("../optimist-pg-graphics/YouTube_icon_inverted.svg");
 }
 
 footer .container .footer-container section.contact-legal .social .contact-us a:after {
@@ -134,44 +182,6 @@ footer .container .footer-container section.contact-legal .social .contact-us a:
     width: 10px;
     height: 20px;
     padding: 0 10px;
-}
-
-footer .container .footer-container section.contact-legal .social .social-icon a svg {
-    max-height: 25px;
-    max-width: 25px;
-    fill: #fff;
-    transition: all ease 0.3s;
-    position: relative;
-    z-index: 2;
-    border-radius:50%;
-}
-
-footer .container .footer-container section.contact-legal .social .social-icon a:hover:before {
-    position: absolute;
-    z-index: 3;
-    left: 1;
-    content: "";
-    width: 20px;
-    height: 20px;
-    border: 2px solid #fff;
-    border-radius:50%;
-}
-
-footer .container .footer-container section.contact-legal .social .social-icon:first-of-type a:hover:before {
-    left: 0;
-}
-
-footer .container .footer-container section.contact-legal .social .social-icon a:hover svg {
-    fill: #000000 !important;
-    background-color: #fff;
-}
-
-footer .container .footer-container section.contact-legal .social .social-icon:last-of-type a svg {
-    margin-left: 0px;
-}
-
-footer .container .footer-container section.contact-legal .social .social-icon:first-of-type a svg {
-    margin-left: -2px;
 }
 
 footer .container .footer-container section.contact-legal .copyrights {
