@@ -123,7 +123,7 @@
     .pardot-lp-content-container {
         padding-left: 17px;
         padding-right: 17px;
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: space-between;
     }
     .pardot-lp-content-container .form-container {
