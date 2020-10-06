@@ -1,0 +1,52 @@
+nav.breadcrumbs-container {
+    padding: 0 40px;
+    height: 65px;
+    max-width: 1440px;
+    margin: auto;
+    border: 1px solid #9b9b9b;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+nav.breadcrumbs-container .breadcrumbs {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+nav.breadcrumbs-container .breadcrumbs .breadcrumb {
+    height: 24px;
+    margin-right: 38px;
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+nav.breadcrumbs-container .breadcrumbs .breadcrumb:not(:last-of-type):after {
+    content: "/";
+    font-size: 14px;
+    color: #9b9b9b;
+    width: 5px;
+    position: absolute;
+    right: -27px;
+}
+
+nav.breadcrumbs-container .breadcrumbs .breadcrumb.active {
+    color: #9b9b9b;
+    margin-right: 0px;
+}
+
+nav.breadcrumbs-container .breadcrumbs .breadcrumb a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}

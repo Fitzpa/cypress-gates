@@ -1,0 +1,303 @@
+footer {
+    background-color: #000;
+    max-width: 1440px;
+    max-height: 552px;
+    height: 100%;
+    padding: 96px 16px;
+    margin: auto;
+}
+
+footer .container {
+    width: 100%;
+    margin: auto;
+}
+
+footer .container .footer-container {
+    max-width: 670px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 552px;
+}
+
+footer .container .footer-container .cta-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer .container .footer-container .cta-container img {
+    max-width: 208px;
+    width: 100%;
+    max-height: 42px;
+    width: 100%;
+    margin-bottom: 49px;
+}
+
+footer .container .footer-container .cta-container p {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 29px;
+    margin-top: 0;
+}
+
+footer .container .footer-container .cta-container a {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    margin-bottom: 54px;
+    width: 130px;
+    line-height: 1.6;
+}
+
+footer .container .footer-container .cta-container a svg {
+    max-width: 17px;
+    width: 100%;
+    max-height: 17px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -8px;
+}
+
+footer .container .footer-container section.contact-legal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container .footer-container section.contact-legal .social, footer .container .footer-container section.contact-legal .legal-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 25px;
+}
+
+footer .container .footer-container section.contact-legal .social, footer .container .footer-container section.contact-legal .legal-links .legal-link a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+footer .container .footer-container section.contact-legal .legal-links .legal-link a:after {
+    content: "|";
+    width: 10px;
+    height: 20px;
+    padding: 0 10px;
+}
+
+footer .container .footer-container section.contact-legal .legal-links .legal-link:last-of-type a:after {
+    content: "";
+    padding: 0;
+    width: 0;
+    height: 0;
+}
+
+footer .container .footer-container section.contact-legal .social .social-icon {
+    margin-right: 16px;
+    width: 25px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container .footer-container section.contact-legal .social a {
+    color: #fff;
+    text-decoration: none;
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: 400;
+    margin: auto;
+}
+
+footer .container .footer-container section.contact-legal .social .social-icon a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+footer .container .footer-container section.contact-legal .social .contact-us a:after {
+    content: "|";
+    width: 10px;
+    height: 20px;
+    padding: 0 10px;
+}
+
+footer .container .footer-container section.contact-legal .social .social-icon a svg {
+    max-height: 25px;
+    max-width: 25px;
+    fill: #fff;
+    transition: all ease 0.3s;
+    position: relative;
+    z-index: 2;
+    border-radius:50%;
+}
+
+footer .container .footer-container section.contact-legal .social .social-icon a:hover:before {
+    position: absolute;
+    z-index: 3;
+    left: 1;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-radius:50%;
+}
+
+footer .container .footer-container section.contact-legal .social .social-icon:first-of-type a:hover:before {
+    left: 0;
+}
+
+footer .container .footer-container section.contact-legal .social .social-icon a:hover svg {
+    fill: #000000 !important;
+    background-color: #fff;
+}
+
+footer .container .footer-container section.contact-legal .social .social-icon:last-of-type a svg {
+    margin-left: 0px;
+}
+
+footer .container .footer-container section.contact-legal .social .social-icon:first-of-type a svg {
+    margin-left: -2px;
+}
+
+footer .container .footer-container section.contact-legal .copyrights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6;
+}
+
+footer .container .footer-container section.contact-legal .copyrights p {
+    color: #fff;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+svg {
+    fill: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        max-height: 712px;
+        padding: 96px 15px;
+    }
+
+    footer .container {
+        padding: 0;
+    }
+    footer .container .footer-container {
+        max-width: 370px;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        max-height: 100%;
+    }
+
+    footer .container .footer-container .cta-container p {
+        margin-top: 0;
+        max-width: 370px;
+        width: 100%;
+    }
+
+    footer .container .footer-container .cta-container a {
+        margin-bottom: 54px;
+    }
+
+    footer .container .footer-container section.contact-legal {
+        max-width: 737px;
+    }
+
+    footer .container .footer-container section.contact-legal .social {
+        margin-bottom: 29px;
+    }
+
+    footer .container .footer-container section.contact-legal .social .social-icons {
+        margin-bottom: 29px;
+        max-width: 168px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    footer .container .footer-container section.contact-legal .social .social-icons .social-icon {
+        margin-right: 0;
+    }
+
+    footer .container .footer-container section.contact-legal .social {
+        flex-direction: column;
+        max-width: 168px;
+        width: 100%;
+    }
+
+    footer .container .footer-container section.contact-legal .contact-links {
+        width: 100%;
+    }
+
+    footer .container .footer-container section.contact-legal .social .contact-us a:after {
+        content: "|";
+        width: 10px;
+        height: 20px;
+        padding: 0 4px;
+    }
+    
+    footer .container .footer-container section.contact-legal .legal-links {
+        display: grid; 
+        grid-gap: 0px 20px;
+        margin-bottom: 29px;
+    }
+    
+    footer .container .footer-container section.contact-legal .legal-links .legal-link {
+        text-align: center;
+        line-height: 1.4;
+    }
+    footer .container .footer-container section.contact-legal .legal-links .legal-link:nth-child(1) {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    footer .container .footer-container section.contact-legal .legal-links .legal-link:nth-child(2) {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    footer .container .footer-container section.contact-legal .legal-links .legal-link:nth-child(3) {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    footer .container .footer-container section.contact-legal .legal-links .legal-link:nth-child(4) {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+
+    footer .container .footer-container section.contact-legal .legal-links .legal-link a:after {
+        content: "";
+        width: 0;
+        height: 0;
+        padding: 0;
+    }
+
+    footer .container .footer-container section.contact-legal .copyrights {
+        max-width: 234px;
+        text-align: center;
+        line-height: 1.8;
+    }
+}

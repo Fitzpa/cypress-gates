@@ -1,0 +1,76 @@
+.pardot-lp-content-container {
+    max-width: 1440px;
+    margin: auto;
+    padding-top: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pardot-lp-content-container ::placeholder {
+    padding-left: 15px;
+}
+
+.pardot-lp-content-container h2 {
+    padding-top: 103px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pardot-lp-content-container h1 {
+    font-family: 'Noto Serif', serif;
+    margin-top: 0;
+    font-size: 52px;
+    line-height: 1.2;
+}
+
+.pardot-lp-content-container p.confirmation{
+    font-family: 'Noto Serif', serif;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.pardot-lp-content-container p.thank-you{
+    line-height: 1.5;
+    font-size: 16px;
+    max-width: 530px;
+}
+
+.pardot-lp-content-container .thank-you-container {
+    max-width: 720px;
+    width: 100%;
+    padding-right: 29px;
+    margin-left: 42px;
+}
+
+
+
+
+
+
+/* HERO IMAGE */
+.pardot-lp-content-container .img-container {
+    display: inline-block;
+    max-width: 720px;
+    width: 100%;
+}
+.pardot-lp-content-container .img-container img {
+    max-height: 600px;
+    max-width: 720px;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .pardot-lp-content-container {
+        padding-left: 17px;
+        padding-right: 17px;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    .pardot-lp-content-container .thank-you-container {
+        margin-left: 0px;
+    }
+}
