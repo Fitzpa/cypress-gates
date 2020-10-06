@@ -56,25 +56,28 @@
     margin-bottom: 8px;
     font-size: 14px;
 }
-.pardot-lp-content-container .form-container form .input-container.is-grantee label p {
+.pardot-lp-content-container .form-container form .input-container {
     margin-bottom: 8px;
+    font-size: 14px;
 }
-.pardot-lp-content-container .form-container form .input-container.is-grantee label .is-grantee-checkbox-container {
+.pardot-lp-content-container .form-container form .input-container.geo-focus-container .checkbox-container {
     display: flex;
     flex-direction: row;
     justify-content: start;
     align-items: center;
 }
-.pardot-lp-content-container .form-container form .input-container.is-grantee input {
+.pardot-lp-content-container .form-container form .input-container input {
     display: inline-block;
     height: 30px;
     width: 30px;
     margin-right: 14px;
 }
-.pardot-lp-content-container .form-container form .input-container.is-grantee span {
+.pardot-lp-content-container .form-container form .input-container.geo-focus-container label {
     height: 100%;
     max-height: 30px;
-    max-width: 30px;
+    max-width: 130px;
+    font-size: 18px;
+    margin-bottom: 0;
 }
 .pardot-lp-content-container .form-container form .input-container:last-of-type {
     margin-bottom: 16px;
